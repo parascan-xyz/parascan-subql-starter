@@ -7,8 +7,8 @@ schema:
   file: ./schema.graphql
 
 network:
-  endpoint: wss://rpc.efinity.io
-  genesisHash: "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f"
+  endpoint: wss://rpc.parallel.fi
+  genesisHash: "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97"
 
 dataSources:
   - kind: substrate/Runtime
