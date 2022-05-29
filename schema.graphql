@@ -42,6 +42,9 @@ type Account @entity {
 
 type Day @entity {
   id: ID!
+  year: Int!
+  month: Int!
+  date: Int!
   extrinsics: Int!
   events: Int!
 }

@@ -6,6 +6,9 @@ export async function ensureDay(timestamp: Date): Promise<Day> {
   if (!entity) {
     entity = Day.create({
       id: recordId,
+      year: timestamp.getFullYear(),
+      month: timestamp.getMonth(),
+      date: timestamp.getDate(),
       extrinsics: 0,
       events: 0
     });
